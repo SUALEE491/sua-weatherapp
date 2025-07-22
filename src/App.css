@@ -1,0 +1,30 @@
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body{
+  background: url(https://cdn.vectorstock.com/i/500p/65/45/cloudy-sky-background-vector-44886545.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+
+}
+
+.weather-box{
+  border: 3px solid white;
+  padding: 50px;
+  border-radius: 30px;
+  background-color: azure;
+}
